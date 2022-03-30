@@ -38,19 +38,21 @@ const data = [
 
 const backgroundColors = [];
 
-for (i = 0; i < data.length; i++) {
-  if (data[i] < 4) {
+function addColor(num) {
+  if (num < 4) {
     backgroundColors.push("#e5b18b");
   }
-  if (data[i] <= 7 && data[i] >= 4) {
+  if (num <= 7 && num >= 4) {
     backgroundColors.push("#df7e61");
   }
-  if (data[i] > 7) {
+  if (num > 7) {
     backgroundColors.push("#cf461e");
   }
 }
 
-console.log(backgroundColors);
+for (i = 0; i < data.length; i++) {
+  addColor(data[i]);
+}
 
 new Chart(document.getElementById("myChart"), {
   type: "bar",
