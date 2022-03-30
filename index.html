@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img class="" src="images/logo.svg" alt="logo" />
+          <h1>etnetera</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">DOMŮ</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">KDO JSME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CO DĚLÁME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">REFERENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRÁCE U NÁS (4)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">KONTAKT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="slider">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="background-image"></div>
+            <div class="content">
+              <h1>Přidej se v Etneteře mezi kodéry</h1>
+              <p>
+                Čeká tě tým mladých lidí zapálených nejen do kódování. Nejsme
+                žádný tiše pracující tým. Rádi si s tebou i během práce
+                pokecáme, zajdeme na oběd nebo poradíme s problémem.
+              </p>
+              <button>Více o nás</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="background-image"></div>
+            <div class="content">
+              <h1>Přidej se v Etneteře mezi kodéry</h1>
+              <p>
+                Čeká tě tým mladých lidí zapálených nejen do kódování. Nejsme
+                žádný tiše pracující tým. Rádi si s tebou i během práce
+                pokecáme, zajdeme na oběd nebo poradíme s problémem.
+              </p>
+              <button>Více o nás</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="background-image"></div>
+            <div class="content">
+              <h1>Přidej se v Etneteře mezi kodéry</h1>
+              <p>
+                Čeká tě tým mladých lidí zapálených nejen do kódování. Nejsme
+                žádný tiše pracující tým. Rádi si s tebou i během práce
+                pokecáme, zajdeme na oběd nebo poradíme s problémem.
+              </p>
+              <button>Více o nás</button>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="bar">
+      <div class="container">
+        <div class="row">
+          <div class="col col-custom"><p>PŘED 12 DNY</p></div>
+          <div style="text-align: center" class="col-7 col-custom">
+            <p>
+              Jiří Štěpán z Etnetera Activate poodhalil zákulisí vykutálené
+              náborové kampaně.
+            </p>
+          </div>
+          <div style="text-align: right" class="col col-custom">
+            <p>Přečíst</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col col-custom"><h2>Co jsme zač</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-custom">
+            <img src="images/budova.png" alt="budova" />
+          </div>
+          <div class="col-lg-8 col-md-12 col-custom">
+            <p style="padding-left: 19px">
+              V roce 1997 si Martin a Vašek chtěli přivydělat při studiu ČVUT.
+              Založili firmu a brzy s překvapením zjistili, že mohou zaměstnat i
+              své přátele, kteří sdílí jejich znalosti a smysl pro humor. Po 20+
+              letech úspěšného fungování je
+              <span class="orange"> Etnetera</span>
+              <span class="bold"
+                >přední společností v oblasti vývoje webových portálů a
+                aplikací</span
+              >. Naším cílem je být jedničkou na českém trhu v tomto segmentu.
+              <span class="bold"
+                >Orientujeme se na dlouhodobá partnerství a hledání jedinečných
+                řešení s přidanou hodnotou, která vás posunou vpřed</span
+              >. Naše sebedůvěra stojí na silném stabilním zázemí a zkušenostech
+              z tisíce náročných projektů pro klienty, ktěří jsou špičkou v
+              oboru. Držíme slovo i termíny, dokážeme přiznat a napravit chybu.
+              Věříme sobě i vám.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-custom">
+            <p style="padding-top: 28px">
+              Pracujeme v liberálním a otevřeném prostředí bez kravat a
+              procesních příruček. Inspirujeme se principy svobodné firmy, kde
+              se zisky dělí transparentně, týmy si určují svá vlastní pravidla a
+              management nemá nadstandardní benefity. Rádi společně sportujeme a
+              podporujeme se. Kopeme za jeden tým.
+            </p>
+
+            <p style="padding-top: 10px">
+              Není proto náhoda, že jsme se
+              <span class="dotted tooltip-hover"
+                >4 roky po sobě
+                <span class="tooltiptext">hustý, co?</span></span
+              >
+              umístili na třech nejvyšších příčkách v soutěži Best Employers ČR.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="visitors">
+      <div class="container">
+        <div class="row">
+          <div class="col col-custom"><h3>Návštěvnost firmy</h3></div>
+        </div>
+        <div class="row">
+          <div class="col-1 col-custom">
+            <img src="images/logo2.svg" alt="logo" />
+          </div>
+          <div class="col col-custom">
+            <div style="max-width: 570px">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="row ml-4">
+          <div class="col-sm-3 col-xs-12 col-custom">
+            <span class="dot" style="background-color: #e5b18b"></span>
+            <p>bez fronty</p>
+          </div>
+          <div class="col-sm-3 col-xs-12 col-custom">
+            <span class="dot" style="background-color: #df7e61"></span>
+            <p>možnost fronty</p>
+          </div>
+          <div class="col-sm-5 col-xs-12 col-custom">
+            <span class="dot" style="background-color: #cf461e"></span>
+            <p>pravděpodobné čekání ve frontě</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="offer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg col-md-12 col-custom">
+            <div class="content">
+              <h2>Chceš být naším parťákem?</h2>
+              <p>Měl(a) bys:</p>
+              <ul>
+                <li>
+                  <p>
+                    Žít HTML5, CSS3. Doslova.Tento jazyk Ti občas připadá
+                    přirozenější než čeština.
+                  </p>
+                </li>
+                <li>
+                  <p>Znát Javascript.</p>
+                </li>
+                <li>
+                  <p>
+                    Nad pojmy ES6/7, React a Redux bys neměl bezradně krčit
+                    rameny, ale bezpečně je znát.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Node.js je Tvůj dobrý kamarád, který používáš při buildování
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Velkou výhodu představují dobré vztahy s dalšími JS
+                    frameworky. Tzn. pokud si tykáš třeba s Angular, Vue.js či
+                    Vanilla JS.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Uvedené technologie Tě zajímají, ale nemáš s nimi moc
+                    zkušeností? Nevadí, stav se k nám na kafe, pro
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg col-md-12 col-custom">
+            <div class="content">
+              <h2>Co za to dostaneš?</h2>
+              <p>Budeme si tě hýčkat např.:</p>
+              <ol>
+                <li>
+                  <p>
+                    Komfortním pracovním prostředím, které je unikátní kombinací
+                    kanceláří, tělocvičny, odpočinkových pros tor a kavárny. U
+                    nás se strohé prostředí a nažehlené límečky fakt nenosí.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Pestrým koktejlem takových těch typických benefitů jako jsou
+                    třeba stravenková platební karta, Multisport karta,
+                    příspěvky na vzdělání, dopravu a další.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Pestrým koktejlem takových těch typických benefitů jako jsou
+                    třeba stravenková platební karta, Multisport karta,
+                    příspěvky na vzdělání, dopravu a další.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Inspirativním prostředím plným zajímavých lidí, které stojí
+                    za to poznat. Organizujeme pravidelné TechLunche, kdy nad
+                    lahodnou pizzou sdílíme naše nové poznatky a vědomosti.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A hlavně... svobodou!!! Budeme rádi, pokud s námi budeš v
+                    kanceláři, ale rozumíme tomu, že někdy budeš chtít pracovat
+                    i odjinud. Zároveň chápeme, že každému z nás vyhovuje jiná
+                    pracovní doba a zařízení, na kterém pracuje. Pojdme se
+                    pobavit o tvých preferencích, určitě se domluvíme.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="col col-custom">
+            <div class="content">
+              <h2>Sdílení vědomostí</h2>
+              <p>
+                Inspirativní prostředí plné zajímavých lidí, které stojí za to
+                poznat. Organizujeme pravidelné TechLunche, kdy nad lahodnou
+                pizzou sdílíme naše nové poznat ky a vědomosti.
+              </p>
+              <p class="date">11. LEDNA</p>
+              <p class="hashtag">#etnplesk</p>
+            </div>
+          </div>
+          <div class="col col-custom active">
+            <div class="content">
+              <h2>O lidi se staráme někdy víc než o klienty</h2>
+              <p>
+                Komfortní pracovní prostředí, které je unikátní kombinací
+                kanceláří, tělocvičny, odpočinkových prostor a kavárny. U nás se
+                strohé prostředí a naže hlené límečky fakt nenosí.
+              </p>
+              <p class="date">12. LEDNA</p>
+              <p class="hashtag">#etnplesk</p>
+            </div>
+          </div>
+          <div class="col col-custom">
+            <div class="content">
+              <h2>Jaké u nás dostaneš benefity?</h2>
+              <p>
+                Pestrým koktejlem ta kových těch typických benefitů jako jsou
+                třeba stravenková platební karta, Multisport karta, příspěvky na
+                vzdělání, dopravu a penzijní pojištění.
+              </p>
+              <p class="date">12. LEDNA</p>
+              <p class="hashtag">#etnplesk</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h3>copyright</h3>
+      <h4>© 2019 etnetera</h4>
+      <img id="mail" src="images/mail.svg" alt="mail" />
+
+      <p>Jsme hrdým členem <span>Etnetera Group</span></p>
+      <div id="mail-form">
+        <p id="close-mail">x</p>
+
+        <div class="content">
+          <h3>Dostávejte články přímo do vaší e-mailové schránky!</h3>
+          <p>VAŠE E-MAILOVÁ ADRESA</p>
+          <input type="text" />
+          <button>Odeslat</button>
+          <p class="info">
+            Podmínky zpracování osobních údajů („Podmínky") poskytují informace
+            o shromaždování, zaznamenání, používání a jiného zpracování osobních
+            údajů společností Etnetera a.s. se sídlem Jankovcova 1037/49, 170 00
+            Praha 7, IČO : 25103814, zapsána u MS Praha, sp.zn. B 11168, jakožto
+            správcem osobních údajů.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="stript.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
